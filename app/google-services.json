@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "702013478542",
+    "project_id": "belfast-weather-18288",
+    "storage_bucket": "belfast-weather-18288.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:702013478542:android:6d589539ade9ff1a02dbdf",
+        "android_client_info": {
+          "package_name": "com.adamearle.belfastweather"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "702013478542-do5hj9eok3dbpdq99qsd4vfpq2jr3v2i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD58L6EzbdJLbR0mYSDif9HNxeUOfz5QZY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "702013478542-do5hj9eok3dbpdq99qsd4vfpq2jr3v2i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

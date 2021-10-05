@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Belfast Weather</string>
+    <string name="Last_fetched">Last fetched: </string>
+    <string name="Belfast_Weather">Belfast Weather</string>
+    <string name="Date">Date</string>
+    <string name="Temp">Temp</string>
+    <string name="State">State</string>
+    <string name="Abbr">Abbr</string>
+    <string name="Icon">Icon</string>
+</resources>

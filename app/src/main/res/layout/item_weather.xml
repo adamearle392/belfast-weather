@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Widget.MaterialComponents.CardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layoutDirection="ltr"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/weather_applicableDate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="16sp"
+        tools:text="Applicable Date" />
+
+    <TextView
+        android:id="@+id/weather_theTemp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:visibility="gone"
+        tools:text="The Temp" />
+
+    <TextView
+        android:id="@+id/weather_stateName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="16sp"
+        tools:text="State Name" />
+
+    <TextView
+        android:id="@+id/weather_stateAbbr"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:visibility="gone"
+        tools:text="State Abbr" />
+
+    <ImageView
+        android:id="@+id/weather_icon"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:scaleX="0.4"
+        android:scaleY="0.4" />
+</LinearLayout>
